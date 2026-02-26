@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="pHPLMg-WCPRPZmMkRfwwU53xNb28y1Qh-334PcfDW38" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Tanzania's regions — from the snows of Kilimanjaro to the spice islands of Zanzibar. Explore unique landscapes, GPS coordinates, and top attractions in each region." />
+  <meta name="keywords" content="Tanzania regions, Kilimanjaro region, Zanzibar, Arusha, Tanzania landscape, Tanzania travel, Africa safari regions" />
+  <meta property="og:title" content="Tanzania Regions — Twenzetu Safari" />
+  <meta property="og:description" content="Explore Tanzania's diverse regions — Kilimanjaro, Zanzibar, Arusha and more. Each region with GPS coordinates, attractions, and travel tips." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/photo-1586348943529-beaae6c28db9.jpg" />
+  <link rel="canonical" href="https://twenzetusafari.netlify.app/regions.html" />
+  <title>Regions — Twenzetu Safari</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-tz-forest:  #1A4731;
+      --color-tz-savanna: #C8903A;
+      --color-tz-sky:     #1E6FA8;
+      --color-tz-sand:    #F5E6C8;
+      --color-tz-earth:   #8B5E3C;
+      --color-tz-dark:    #111827;
+      --color-tz-muted:   #6B7280;
+      --color-tz-light:   #FAFAF8;
+      --font-display: "Playfair Display", serif;
+      --font-body:    "DM Sans", sans-serif;
+      --font-mono:    "Space Mono", monospace;
+    }
+  </style>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1A4731" />
+</head>
+
+<body class="bg-tz-light text-tz-dark font-body">
+
+  <div class="preloader" aria-hidden="true"><div class="preloader-spinner"></div></div>
+
+  <!-- Swahili Quote Banner -->
+  <div class="swahili-quote-banner bg-tz-savanna text-white py-2.5 text-center transition-opacity duration-400">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3 text-sm">
+      <span class="sq-text font-display font-bold tracking-wider">#HAKUNAMATATA</span>
+      <span class="text-white/60">|</span>
+      <span class="sq-translation text-white/80 italic">"No worries"</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" aria-label="Main navigation">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="Twenzetu Safari home">
+          <span class="w-8 h-8 rounded-full flex-shrink-0" style="background: linear-gradient(135deg,#1EB53A 33%,#FCD116 33% 66%,#00A3DD 66%);" aria-hidden="true"></span>
+          <span class="font-display text-xl font-bold text-tz-forest">Twenzetu Safari</span>
+        </a>
+        <ul class="hidden md:flex items-center gap-8" role="list">
+          <li><a href="index.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Home</a></li>
+          <li><a href="attractions.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Attractions</a></li>
+          <li><a href="regions.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Regions</a></li>
+          <li><a href="about.html" class="nav-link font-medium hover:text-tz-forest transition-colors">About</a></li>
+          <li><a href="sponsor.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Sponsor</a></li>
+        </ul>
+        <div class="hidden md:flex items-center gap-3">
+          <div class="lang-switcher text-tz-forest">
+            <select id="lang-switcher" class="text-tz-forest border-tz-forest/20" aria-label="Select language">
+              <option value="en">EN</option><option value="sw">SW</option><option value="de">DE</option><option value="fr">FR</option>
+            </select>
+          </div>
+          <a href="attractions.html" class="inline-flex items-center gap-2 bg-tz-forest text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-tz-forest/90 transition-colors">Explore Now</a>
+        </div>
+        <button id="mobile-toggle" class="md:hidden p-2 rounded-lg hover:bg-white/20 transition-colors" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-overlay" class="fixed inset-0 z-40 bg-black/50 hidden opacity-0 transition-opacity duration-300" aria-hidden="true"></div>
+  <aside id="mobile-drawer" class="fixed top-0 left-0 z-50 h-full w-72 bg-white shadow-xl -translate-x-full transition-transform duration-300" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="flex items-center justify-between p-4 border-b border-gray-100">
+      <span class="font-display text-lg font-bold text-tz-forest">Twenzetu Safari</span>
+      <button id="mobile-close" class="p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Close menu"><i data-lucide="x" class="w-5 h-5"></i></button>
+    </div>
+    <nav class="p-4" aria-label="Mobile navigation links">
+      <ul class="space-y-1" role="list">
+        <li><a href="index.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Home</a></li>
+        <li><a href="attractions.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Attractions</a></li>
+        <li><a href="regions.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Regions</a></li>
+        <li><a href="about.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">About</a></li>
+        <li><a href="sponsor.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Sponsor</a></li>
+      </ul>
+      <a href="attractions.html" class="mt-6 flex items-center justify-center gap-2 bg-tz-forest text-white font-semibold px-5 py-3 rounded-xl hover:bg-tz-forest/90 transition-colors">Explore Now</a>
+    </nav>
+  </aside>
+
+  <main>
+
+    <!-- Page Hero -->
+    <section class="relative flex flex-col items-center justify-center overflow-hidden" style="height: 280px;" aria-label="Page hero">
+      <img src="images/photo-1586348943529-beaae6c28db9.jpg" alt="Zanzibar turquoise coastline from above" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+      <div class="relative z-10 text-center text-white px-4">
+        <p class="font-mono text-tz-savanna uppercase tracking-widest text-sm mb-3">Explore Tanzania</p>
+        <h1 class="font-display text-4xl sm:text-5xl font-black leading-tight mb-3 text-balance">Tanzania's Regions</h1>
+        <p class="text-white/80 text-base sm:text-lg mb-4 text-pretty">Discover the unique landscapes and attractions of each region</p>
+        <nav aria-label="Breadcrumb">
+          <ol class="flex items-center justify-center gap-1.5 text-sm text-white/60">
+            <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+            <li aria-hidden="true"><i data-lucide="chevron-right" class="inline w-3 h-3"></i></li>
+            <li class="text-white/90" aria-current="page">Regions</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Regions Container -->
+    <div id="regions-container" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-24" aria-label="Regions listing">
+      <div class="rounded-2xl bg-gray-200 animate-pulse h-72"></div>
+      <div class="rounded-2xl bg-gray-200 animate-pulse h-72"></div>
+      <div class="rounded-2xl bg-gray-200 animate-pulse h-72"></div>
+    </div>
+
+    <!-- CTA -->
+    <section class="cta-pattern bg-tz-forest text-white py-20 text-center px-4" aria-labelledby="cta-title" data-aos="fade-up">
+      <div class="relative z-10 max-w-2xl mx-auto">
+        <h2 id="cta-title" class="font-display text-4xl sm:text-5xl font-bold mb-4 text-balance">Ready to Explore?</h2>
+        <p class="text-white/75 text-lg mb-10 text-pretty">Browse all attractions across Tanzania's stunning regions and start planning your adventure.</p>
+        <a href="attractions.html" class="inline-flex items-center gap-2 bg-tz-savanna text-white font-semibold px-10 py-4 rounded-full hover:bg-tz-savanna/90 transition-colors shadow-xl text-lg">
+          Explore All Attractions <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-tz-dark text-white" aria-label="Site footer">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center gap-2 mb-4" aria-label="Twenzetu Safari home">
+            <span class="w-8 h-8 rounded-full flex-shrink-0" style="background: linear-gradient(135deg,#1EB53A 33%,#FCD116 33% 66%,#00A3DD 66%);" aria-hidden="true"></span>
+            <span class="font-display text-lg font-bold">Twenzetu Safari</span>
+          </a>
+          <p class="text-white/60 text-sm leading-relaxed mb-4">Your open-source guide to the wonders of Tanzania — built by the community, for the curious.</p>
+          <div class="tz-time time-display flex items-center gap-2 text-xs font-mono text-white/40">
+            <i data-lucide="clock" class="w-3 h-3"></i> <span class="tz-time-value">--:--:--</span> <span class="tz-date-value">---</span> <span class="text-tz-savanna">EAT</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Explore</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="attractions.html" class="hover:text-white transition-colors">All Attractions</a></li>
+            <li><a href="regions.html" class="hover:text-white transition-colors">Regions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Project</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="about.html" class="hover:text-white transition-colors">About / Contributors</a></li>
+            <li><a href="sponsor.html" class="hover:text-white transition-colors">Sponsor</a></li>
+            <li><a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Connect</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a></li>
+            <li><a href="mailto:hello@tztourism.example" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="mail" class="w-4 h-4"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/40 text-sm">
+        <p>&copy; <span class="current-year"></span> Twenzetu Safari. Open source under MIT License.</p>
+        <div class="flex items-center gap-4">
+          <a href="about.html" class="hover:text-white transition-colors">About</a>
+          <a href="sponsor.html" class="hover:text-white transition-colors">Sponsor</a>
+          <a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="fixed bottom-6 right-6 z-50 bg-tz-forest text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none hover:bg-tz-forest/90 transition-all duration-300" aria-label="Back to top">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="js/scripts.js" defer></script>
+  <script type="module" src="js/regions.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(reg => console.log('[SW] Registered:', reg.scope)).catch(err => console.warn('[SW] Registration failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>

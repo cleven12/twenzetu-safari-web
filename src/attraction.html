@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="pHPLMg-WCPRPZmMkRfwwU53xNb28y1Qh-334PcfDW38" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detailed information about this Tanzania attraction — images, key facts, tips, weather, distances from popular areas, and more." />
+  <title>Attraction — Twenzetu Safari</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-tz-forest:  #1A4731;
+      --color-tz-savanna: #C8903A;
+      --color-tz-sky:     #1E6FA8;
+      --color-tz-sand:    #F5E6C8;
+      --color-tz-earth:   #8B5E3C;
+      --color-tz-dark:    #111827;
+      --color-tz-muted:   #6B7280;
+      --color-tz-light:   #FAFAF8;
+      --font-display: "Playfair Display", serif;
+      --font-body:    "DM Sans", sans-serif;
+      --font-mono:    "Space Mono", monospace;
+    }
+  </style>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1A4731" />
+</head>
+
+<body class="bg-tz-light text-tz-dark font-body">
+
+  <!-- Preloader -->
+  <div class="preloader" aria-hidden="true"><div class="preloader-spinner"></div></div>
+
+  <!-- Navbar -->
+  <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" aria-label="Main navigation">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="Twenzetu Safari home">
+          <span class="w-8 h-8 rounded-full flex-shrink-0" style="background: linear-gradient(135deg,#1EB53A 33%,#FCD116 33% 66%,#00A3DD 66%);" aria-hidden="true"></span>
+          <span class="font-display text-xl font-bold text-tz-forest">Twenzetu Safari</span>
+        </a>
+        <ul class="hidden md:flex items-center gap-8" role="list">
+          <li><a href="index.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Home</a></li>
+          <li><a href="attractions.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Attractions</a></li>
+          <li><a href="regions.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Regions</a></li>
+          <li><a href="about.html" class="nav-link font-medium hover:text-tz-forest transition-colors">About</a></li>
+          <li><a href="sponsor.html" class="nav-link font-medium hover:text-tz-forest transition-colors">Sponsor</a></li>
+        </ul>
+        <div class="hidden md:flex items-center gap-3">
+          <div class="lang-switcher text-tz-forest">
+            <select id="lang-switcher" class="text-tz-forest border-tz-forest/20" aria-label="Select language">
+              <option value="en">EN</option><option value="sw">SW</option><option value="de">DE</option><option value="fr">FR</option>
+            </select>
+          </div>
+          <a href="attractions.html" class="inline-flex items-center gap-2 bg-tz-forest text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-tz-forest/90 transition-colors">Explore Now</a>
+        </div>
+        <button id="mobile-toggle" class="md:hidden p-2 rounded-lg hover:bg-white/20 transition-colors" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-overlay" class="fixed inset-0 z-40 bg-black/50 hidden opacity-0 transition-opacity duration-300" aria-hidden="true"></div>
+  <aside id="mobile-drawer" class="fixed top-0 left-0 z-50 h-full w-72 bg-white shadow-xl -translate-x-full transition-transform duration-300" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="flex items-center justify-between p-4 border-b border-gray-100">
+      <span class="font-display text-lg font-bold text-tz-forest">Twenzetu Safari</span>
+      <button id="mobile-close" class="p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-label="Close menu"><i data-lucide="x" class="w-5 h-5"></i></button>
+    </div>
+    <nav class="p-4" aria-label="Mobile navigation links">
+      <ul class="space-y-1" role="list">
+        <li><a href="index.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Home</a></li>
+        <li><a href="attractions.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Attractions</a></li>
+        <li><a href="regions.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Regions</a></li>
+        <li><a href="about.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">About</a></li>
+        <li><a href="sponsor.html" class="nav-link block px-4 py-3 rounded-xl font-medium hover:bg-tz-sand hover:text-tz-forest transition-colors">Sponsor</a></li>
+      </ul>
+      <a href="attractions.html" class="mt-6 flex items-center justify-center gap-2 bg-tz-forest text-white font-semibold px-5 py-3 rounded-xl hover:bg-tz-forest/90 transition-colors">Explore Now</a>
+    </nav>
+  </aside>
+
+  <main>
+
+    <!-- Hero / Image Gallery -->
+    <section id="gallery-section" class="relative min-h-screen" aria-label="Attraction gallery">
+      <div id="gallery-splide" class="splide min-h-screen" aria-label="Attraction image gallery">
+        <div class="splide__track min-h-screen">
+          <ul id="gallery-list" class="splide__list min-h-screen"></ul>
+        </div>
+      </div>
+      <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, transparent 30%, transparent 55%, rgba(0,0,0,0.75) 100%);" aria-hidden="true"></div>
+      <div class="absolute bottom-0 left-0 right-0 z-10 px-4 sm:px-8 pb-10 text-white">
+        <div class="max-w-7xl mx-auto">
+          <div id="attraction-category-badge" class="mb-3"></div>
+          <h1 id="attraction-name" class="font-display text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-3 drop-shadow-lg text-balance">Loading...</h1>
+          <p id="attraction-region" class="flex items-center gap-1.5 text-white/90 text-lg mb-4">
+            <i data-lucide="map-pin" class="w-5 h-5 text-tz-savanna shrink-0" aria-hidden="true"></i>
+            <span>Loading region...</span>
+          </p>
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <nav aria-label="Breadcrumb">
+              <ol class="flex items-center gap-1.5 text-sm text-white/70">
+                <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                <li aria-hidden="true"><i data-lucide="chevron-right" class="inline w-3 h-3"></i></li>
+                <li><a href="attractions.html" class="hover:text-white transition-colors">Attractions</a></li>
+                <li aria-hidden="true"><i data-lucide="chevron-right" class="inline w-3 h-3"></i></li>
+                <li id="breadcrumb-name" class="text-white/90 font-medium" aria-current="page">...</li>
+              </ol>
+            </nav>
+            <span id="attraction-difficulty"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content — 2-column layout -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+        <!-- LEFT / MAIN CONTENT -->
+        <div class="lg:col-span-2 space-y-12">
+
+          <!-- Overview -->
+          <section aria-labelledby="section-overview" data-aos="fade-up">
+            <h2 id="section-overview" class="font-display text-2xl font-bold text-tz-dark mb-5">Overview</h2>
+            <div id="attraction-description" class="prose prose-lg text-tz-muted leading-relaxed space-y-4 max-w-none"></div>
+          </section>
+
+          <!-- Key Info Table -->
+          <section aria-labelledby="section-key-info" data-aos="fade-up">
+            <h2 id="section-key-info" class="font-display text-2xl font-bold text-tz-dark mb-5">Key Information</h2>
+            <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
+              <table class="key-info-table w-full text-sm" aria-label="Key attraction information">
+                <tbody class="divide-y divide-gray-50">
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left w-1/2 flex items-center gap-2"><i data-lucide="mountain" class="w-4 h-4 text-tz-forest shrink-0"></i>Altitude</th>
+                    <td id="info-altitude" class="px-6 py-4 text-tz-muted">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="gauge" class="w-4 h-4 text-tz-forest shrink-0"></i>Difficulty</th>
+                    <td id="info-difficulty" class="px-6 py-4">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="clock" class="w-4 h-4 text-tz-forest shrink-0"></i>Estimated Duration</th>
+                    <td id="info-duration" class="px-6 py-4 text-tz-muted">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="ticket" class="w-4 h-4 text-tz-forest shrink-0"></i>Entrance Fee</th>
+                    <td id="info-fee" class="px-6 py-4 text-tz-muted">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="user-check" class="w-4 h-4 text-tz-forest shrink-0"></i>Requires Guide</th>
+                    <td id="info-guide" class="px-6 py-4">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="file-text" class="w-4 h-4 text-tz-forest shrink-0"></i>Requires Permit</th>
+                    <td id="info-permit" class="px-6 py-4">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="plane-landing" class="w-4 h-4 text-tz-forest shrink-0"></i>Nearest Airport</th>
+                    <td id="info-airport" class="px-6 py-4 text-tz-muted">--</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50/60 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-tz-dark text-left flex items-center gap-2"><i data-lucide="route" class="w-4 h-4 text-tz-forest shrink-0"></i>Distance from Airport</th>
+                    <td id="info-distance" class="px-6 py-4 text-tz-muted">--</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- Distance from Popular Areas -->
+          <section id="distance-section" aria-labelledby="section-distances" data-aos="fade-up" class="hidden">
+            <h2 id="section-distances" class="font-display text-2xl font-bold text-tz-dark mb-5">Distance from Popular Areas</h2>
+            <div id="distances-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+          </section>
+
+          <!-- Access Information -->
+          <section aria-labelledby="section-access" data-aos="fade-up">
+            <h2 id="section-access" class="font-display text-2xl font-bold text-tz-dark mb-4">Getting There</h2>
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+              <p id="attraction-access" class="text-tz-muted leading-relaxed">Loading access information...</p>
+            </div>
+          </section>
+
+          <!-- Seasonal Availability -->
+          <section aria-labelledby="section-seasonal" data-aos="fade-up">
+            <h2 id="section-seasonal" class="font-display text-2xl font-bold text-tz-dark mb-4">Seasonal Availability</h2>
+            <div class="bg-tz-sand/40 rounded-2xl p-6 border border-tz-sand">
+              <p id="attraction-seasonal" class="text-tz-muted leading-relaxed">Loading seasonal information...</p>
+            </div>
+          </section>
+
+          <!-- Traveller Tips -->
+          <section aria-labelledby="section-tips" data-aos="fade-up">
+            <h2 id="section-tips" class="font-display text-2xl font-bold text-tz-dark mb-5">Traveller Tips</h2>
+            <ul id="tips-list" class="tip-timeline space-y-4" aria-label="Traveller tips"></ul>
+          </section>
+        </div>
+
+        <!-- RIGHT / SIDEBAR -->
+        <aside class="sticky-sidebar space-y-6" aria-label="Attraction sidebar">
+
+          <!-- Best Time to Visit -->
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100" data-aos="fade-up">
+            <h3 class="font-semibold text-tz-dark mb-3 flex items-center gap-2">
+              <i data-lucide="calendar" class="w-5 h-5 text-tz-savanna" aria-hidden="true"></i> Best Time to Visit
+            </h3>
+            <p id="info-best-time" class="text-tz-muted text-sm leading-relaxed">--</p>
+          </div>
+
+          <!-- Quick Facts -->
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100" data-aos="fade-up">
+            <h3 class="font-semibold text-tz-dark mb-4">Quick Facts</h3>
+            <dl class="space-y-3 text-sm">
+              <div class="flex justify-between items-center">
+                <dt class="text-tz-muted font-medium">Region</dt>
+                <dd id="fact-region" class="text-tz-dark font-semibold">--</dd>
+              </div>
+              <div class="flex justify-between items-center">
+                <dt class="text-tz-muted font-medium">Category</dt>
+                <dd id="fact-category" class="text-right">--</dd>
+              </div>
+              <div class="flex justify-between items-center">
+                <dt class="text-tz-muted font-medium">Featured</dt>
+                <dd id="fact-featured">--</dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Weather Widget -->
+          <div id="weather-widget" class="weather-widget rounded-2xl p-6 text-white shadow-sm" data-aos="fade-up" aria-label="Current weather">
+            <h3 class="font-semibold mb-4 flex items-center gap-2 text-white/90">
+              <i data-lucide="cloud" class="w-5 h-5" aria-hidden="true"></i> Current Weather
+            </h3>
+            <div class="flex items-center justify-between mb-4">
+              <div>
+                <p id="weather-temp" class="text-4xl font-bold font-mono tracking-tight">--</p>
+                <p id="weather-desc" class="text-white/70 text-sm mt-1">Loading...</p>
+              </div>
+              <i id="weather-icon" data-lucide="sun" class="w-14 h-14 text-white/80" aria-hidden="true"></i>
+            </div>
+            <div class="grid grid-cols-2 gap-3 text-sm">
+              <div class="bg-white/10 rounded-xl px-4 py-3">
+                <p class="text-white/60 text-xs mb-1 flex items-center gap-1"><i data-lucide="wind" class="w-3 h-3"></i> Wind</p>
+                <p id="weather-wind" class="font-semibold">--</p>
+              </div>
+              <div class="bg-white/10 rounded-xl px-4 py-3">
+                <p class="text-white/60 text-xs mb-1 flex items-center gap-1"><i data-lucide="droplets" class="w-3 h-3"></i> Humidity</p>
+                <p id="weather-humidity" class="font-semibold">--</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- GPS Coordinates + OpenStreetMap -->
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100" data-aos="fade-up">
+            <h3 class="font-semibold text-tz-dark mb-3 flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-5 h-5 text-tz-sky" aria-hidden="true"></i> GPS Coordinates
+            </h3>
+            <p id="info-coords" class="font-mono text-sm text-tz-muted leading-relaxed mb-4">--</p>
+            <!-- OpenStreetMap iframe — hidden until coords are available -->
+            <div id="osm-map-wrap" style="display:none" class="rounded-xl overflow-hidden border border-gray-200">
+              <iframe
+                id="osm-map"
+                title="Attraction location on OpenStreetMap"
+                width="100%"
+                height="220"
+                frameborder="0"
+                scrolling="no"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                src=""
+                aria-label="Interactive map showing attraction location"
+              ></iframe>
+              <a
+                id="osm-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-center gap-1 text-xs text-tz-muted py-2 hover:text-tz-sky transition-colors bg-gray-50"
+              >
+                <i data-lucide="external-link" class="w-3 h-3"></i> View larger map on OpenStreetMap
+              </a>
+            </div>
+          </div>
+
+          <!-- Share -->
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100" data-aos="fade-up">
+            <h3 class="font-semibold text-tz-dark mb-3">Share This Attraction</h3>
+            <button id="share-btn" class="w-full flex items-center justify-center gap-2 bg-tz-forest text-white text-sm font-semibold px-5 py-3 rounded-xl hover:bg-tz-forest/90 active:scale-95 transition-all" aria-label="Share this attraction">
+              <i data-lucide="share-2" class="w-4 h-4" aria-hidden="true"></i> Share
+            </button>
+            <p id="share-feedback" class="hidden text-center text-xs text-tz-muted mt-2" aria-live="polite">Link copied!</p>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+
+    <!-- Similar Attractions -->
+    <section aria-labelledby="section-similar" class="bg-white border-t border-gray-100 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 id="section-similar" class="font-display text-3xl font-bold text-tz-dark mb-2" data-aos="fade-up">Similar Attractions</h2>
+        <p class="text-tz-muted mb-8" data-aos="fade-up">More to explore in the same region</p>
+        <div id="similar-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" aria-label="Similar attractions">
+          <div class="rounded-2xl bg-gray-100 animate-pulse h-72"></div>
+          <div class="rounded-2xl bg-gray-100 animate-pulse h-72 hidden sm:block"></div>
+          <div class="rounded-2xl bg-gray-100 animate-pulse h-72 hidden lg:block"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-tz-dark text-white" aria-label="Site footer">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center gap-2 mb-4" aria-label="Twenzetu Safari home">
+            <span class="w-8 h-8 rounded-full flex-shrink-0" style="background: linear-gradient(135deg,#1EB53A 33%,#FCD116 33% 66%,#00A3DD 66%);" aria-hidden="true"></span>
+            <span class="font-display text-lg font-bold">Twenzetu Safari</span>
+          </a>
+          <p class="text-white/60 text-sm leading-relaxed mb-4">Your open-source guide to the wonders of Tanzania — built by the community, for the curious.</p>
+          <div class="tz-time time-display flex items-center gap-2 text-xs font-mono text-white/40">
+            <i data-lucide="clock" class="w-3 h-3"></i> <span class="tz-time-value">--:--:--</span> <span class="tz-date-value">---</span> <span class="text-tz-savanna">EAT</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Explore</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="attractions.html" class="hover:text-white transition-colors">All Attractions</a></li>
+            <li><a href="regions.html" class="hover:text-white transition-colors">Regions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Project</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="about.html" class="hover:text-white transition-colors">About / Contributors</a></li>
+            <li><a href="sponsor.html" class="hover:text-white transition-colors">Sponsor</a></li>
+            <li><a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white/90 mb-4 uppercase tracking-wider text-xs">Connect</h3>
+          <ul class="space-y-2 text-sm text-white/60" role="list">
+            <li><a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a></li>
+            <li><a href="mailto:hello@tztourism.example" class="flex items-center gap-2 hover:text-white transition-colors"><i data-lucide="mail" class="w-4 h-4"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/40 text-sm">
+        <p>&copy; <span class="current-year"></span> Twenzetu Safari. Open source under MIT License.</p>
+        <div class="flex items-center gap-4">
+          <a href="about.html" class="hover:text-white transition-colors">About</a>
+          <a href="sponsor.html" class="hover:text-white transition-colors">Sponsor</a>
+          <a href="https://github.com/cleven12/twenzetu-safari-web" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors"><i data-lucide="github" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="fixed bottom-6 right-6 z-50 bg-tz-forest text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none hover:bg-tz-forest/90 transition-all duration-300" aria-label="Back to top">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="js/scripts.js" defer></script>
+  <script type="module" src="js/attraction.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(reg => console.log('[SW] Registered:', reg.scope)).catch(err => console.warn('[SW] Registration failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>
