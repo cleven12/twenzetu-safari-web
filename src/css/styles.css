@@ -1,5 +1,5 @@
 /* =============================================================
-   styles.css — Custom CSS for Twenzetu Safari Web
+   styles.css — Custom CSS for Xenohuru Web
    Supplements Tailwind CSS v4; loaded on every page.
    Premium visual layer: glassmorphism, micro-interactions,
    parallax, animated counters, card effects, and more.
@@ -603,5 +603,31 @@ body {
   .region-index {
     font-size: 5rem;
     right: 0;
+  }
+  /* Mobile navbar padding improvements */
+  #main-nav .max-w-7xl {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  /* Hide time display on very small screens */
+  #nav-time {
+    display: none !important;
+  }
+  /* Gallery counter mobile positioning */
+  .gallery-counter {
+    top: 60px;
+    right: 8px;
+    font-size: 0.65rem;
+    padding: 4px 10px;
+  }
+  /* Mobile drawer optimization */
+  #mobile-drawer {
+    width: 100%;
+    max-width: 320px;
+  }
+  /* Smaller language switcher on mobile */
+  .lang-switcher select {
+    font-size: 0.65rem;
+    padding: 3px 24px 3px 8px;
   }
 }
