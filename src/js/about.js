@@ -5,7 +5,7 @@
  * Falls back gracefully if the API is rate-limited or unavailable.
  */
 
-const GITHUB_REPO = 'cleven12/twenzetu-safari-web';
+const GITHUB_REPO = 'Xenohuru/xenohuru-web';
 
 /**
  * Fetches contributors from the GitHub API.

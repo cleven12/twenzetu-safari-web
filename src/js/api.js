@@ -1,16 +1,16 @@
 /**
- * api.js — Twenzetu Safari API service
+ * api.js — Xenohuru API service
  *
  * Tries the live Django REST API first.
  * Falls back to MOCK_DATA if API is unreachable (offline / not deployed).
  *
- * Live API: https://cf89615f228bb45cc805447510de80.pythonanywhere.com/api/v1
+ * Live API: https://cf89615f228bb45cc805447510de80.pythonanywhere.com/
  * Toggle: set USE_MOCK = true to always use mock data during development.
  */
 
 import { MOCK_DATA } from './mockdata.js';
 
-const API_BASE = 'https://cf89615f228bb45cc805447510de80.pythonanywhere.com/api/v1';
+const API_BASE = 'https://cf89615f228bb45cc805447510de80.pythonanywhere.com';
 
 // Set to false to use the live API; true forces mock data
 export const USE_MOCK = false;
